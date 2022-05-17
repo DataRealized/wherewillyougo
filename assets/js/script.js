@@ -1,8 +1,7 @@
 var contents, name, image, level, points, values, cached;
 
 var fields = {};
-//id = "117116754524622833006";
-id = "103474235754339879446";
+id = "104460688099465765548";
 contents = getResponseText("https://www.google.com/maps/contrib/" + id);
 
 fillFields(contents);
